@@ -11,7 +11,7 @@ public class Main {
         } else if (number  == 2) {
             System.out.print("Tom");
         } else if (number == 3) {
-            System.out.print("paul");
+            System.out.print("Paul");
         } else {
             System.out.print("Vacancy");
         }
