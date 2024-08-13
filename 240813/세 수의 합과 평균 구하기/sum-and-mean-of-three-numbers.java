@@ -6,8 +6,8 @@ public class Main {
         int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
 
         int sum = a + b + c;
-        double average = (double)(a+b+c) / 3;
+        int average = (a+b+c) / 3;
 
-        System.out.printf("%d\n%.0f",sum,average);
+        System.out.print(sum + "\n" + average);
     }
 }
