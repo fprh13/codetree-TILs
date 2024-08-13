@@ -6,7 +6,7 @@ public class Main {
 
         int score = sc.nextInt(); // 점수
 
-        if (score > 80) {
+        if (score >= 80) {
             System.out.print("pass");
         } else {
             System.out.print((80 - score) + " more score");
